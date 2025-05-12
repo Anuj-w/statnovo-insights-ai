@@ -2,7 +2,7 @@
 import React from 'react';
 import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
-import { ChartBar, ChartLine, ChartPie, Histogram } from 'lucide-react';
+import { ChartBar, ChartLine, ChartPie, BarChart3 } from 'lucide-react';
 
 const Hero: React.FC = () => {
   return (
@@ -11,7 +11,7 @@ const Hero: React.FC = () => {
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <ChartLine className="absolute text-statblue-100 w-32 h-32 -top-4 right-1/4 opacity-30" />
         <ChartPie className="absolute text-statpurple-100 w-40 h-40 top-40 -left-10 opacity-20" />
-        <Histogram className="absolute text-statblue-100 w-28 h-28 bottom-20 right-10 opacity-25" />
+        <BarChart3 className="absolute text-statblue-100 w-28 h-28 bottom-20 right-10 opacity-25" />
       </div>
       
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center relative">
